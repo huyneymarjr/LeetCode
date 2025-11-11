@@ -1,0 +1,16 @@
+# bunfig.toml
+[install]
+# Add packages as dev dependencies by default
+dev = true
+
+[debug]
+# Enable debugger
+enabled = true
+
+[run]
+# Watch for file changes and reload
+watch = true
+
+[test]
+# Configure Bun's test runner
+timeout = 5000
