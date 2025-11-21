@@ -6,7 +6,7 @@ function containsDuplicate(nums) {
     }
     numSet.add(num);
   }
-  return false
+  return false;
 }
 
 console.log(containsDuplicate([1, 2, 3, 1])); // true
