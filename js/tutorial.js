@@ -15,7 +15,7 @@ function removeDuplicates(arr) {
     return [...new Set(arr)];
 }
 
-console.log('Remove duplicate: ', removeDuplicates([1, 2, 2, 3, 3, 6, 6, 9]));
+console.log('Remove duplicate: ', removeDuplicates([1, 2, 2, 3, 3, 6, 6, 8]));
 
 
 function bubbleSort(arr) {
