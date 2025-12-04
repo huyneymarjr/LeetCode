@@ -29,7 +29,7 @@ function bubbleSort(arr) {
     }
     return arr;
 }
-console.log('Bubble Sort:', bubbleSort([64, 34, 25, 12, 22, 11, 90]));
+console.log('Bubble Sort:', bubbleSort([64, 34, 25, 12, 22, 11, 95]));
 
 function selectionSort(arr) {
     const n = arr.length;
