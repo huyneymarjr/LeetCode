@@ -23,14 +23,14 @@
 //   });
 // }
 
-// async function fetchDataAsync() {
-//   try {
-//     const data = await fetchData();
-//     console.log(data);
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
+async function fetchDataAsync() {
+  try {
+    const data = await fetchData();
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}
 
 function createCounter() {
     let count = 0;
