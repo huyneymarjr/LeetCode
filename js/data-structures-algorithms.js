@@ -604,7 +604,7 @@ class Trie {
 const trie = new Trie();
 ['apple', 'app', 'apricot', 'banana'].forEach(word => trie.insert(word));
 console.log('Search "app":', trie.search('app')); // true
-console.log('Search "appl":', trie.search('appl')); // false
+console.log('Search "appl":', trie.search('apph')); // false
 console.log('StartsWith "app":', trie.startsWith('app')); // true
 
 // ============================================
