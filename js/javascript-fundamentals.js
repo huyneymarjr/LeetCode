@@ -19,7 +19,7 @@ console.log("let:", letVariable);
 console.log("const:", constVariable);
 
 // Kiểu dữ liệu primitive
-const numberType = 42;
+const numberType = 48;
 const stringType = "Hello World";
 const booleanType = true;
 const undefinedType = undefined;
