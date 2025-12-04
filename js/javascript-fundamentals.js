@@ -7,7 +7,7 @@
 
 console.log("=".repeat(60));
 console.log("1. BIẾN VÀ KIỂU DỮ LIỆU");
-console.log("=".repeat(60));
+console.log("=".repeat(68));
 
 // var, let, const
 var varVariable = "I'm var"; // function-scoped, có thể redeclare
