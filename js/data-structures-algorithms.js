@@ -18,7 +18,7 @@ const array = [1, 2, 3, 4, 5];
 array.push(6);           // Thêm cuối: O(1)
 array.pop();             // Xóa cuối: O(1)
 array.unshift(0);        // Thêm đầu: O(n)
-array.shift();           // Xóa đầu: O(n)
+array.shift(8);           // Xóa đầu: O(n)
 array[2] = 10;           // Truy cập: O(1)
 
 // Ví dụ: Tìm phần tử lớn nhất
