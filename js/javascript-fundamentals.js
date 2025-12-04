@@ -717,7 +717,7 @@ console.log("=".repeat(60));
 function fetchUserCallback(id, callback) {
   setTimeout(() => {
     callback({ id, name: "User " + id });
-  }, 500);
+  }, 300);
 }
 
 // Promise
@@ -725,7 +725,7 @@ function fetchUserPromise(id) {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve({ id, name: "User " + id });
-    }, 500);
+    }, 400);
   });
 }
 
