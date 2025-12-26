@@ -28,10 +28,20 @@ import { log } from "console";
 // console.log(twoSum([3, 2, 4], 6)); // [1, 2]
 // console.log(twoSum([3, 3], 6)); // [0, 1]
 
-function indetify<T>(arg: T): T {
-    return arg;
-}
+// function indetify<T>(arg: T): T {
+//     return arg;
+// }
 
-console.log(indetify<string>("Hello"));
-console.log(indetify<number>(42));
-console.log(indetify<boolean>(true));
+// console.log(indetify<string>("Hello"));
+// console.log(indetify<number>(42));
+// console.log(indetify<boolean>(true));
+
+class Person {
+    name: string;
+    age: number;
+
+    constructor(name: string, age: string) {
+        this.name = name;
+        this.age = parseInt(age);
+    }
+}
